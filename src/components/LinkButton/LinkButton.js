@@ -1,11 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
-function LinkButton() {
+function LinkButton(props) {
     return (
-        <div className="ImagesListComponent">
-            <h1>ImagesListComponent</h1>
-        </div>
+        <>
+    {/* Link tag is used to navigate to the page that is referenced in the to attribute. */}
+      <Link to={props.path}>
+      <button>{props.innerText}</button>
+     </Link>
+     </>
     );
 }
 
