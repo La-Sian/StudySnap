@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import LinkButton from '../components/LinkButton/LinkButton';
   
 const Topic = () => {
 
@@ -15,3 +15,5 @@ const Topic = () => {
 };
   
 export default Topic;
+
+// import button link

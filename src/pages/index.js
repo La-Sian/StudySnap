@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-  
+import LinkButton from '../components/LinkButton/LinkButton';
 const Home = () => {
   return (
     <div>
@@ -17,3 +17,6 @@ const Home = () => {
 };
   
 export default Home;
+
+// import link button
+// 
