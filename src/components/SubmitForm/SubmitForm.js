@@ -77,6 +77,14 @@ function SubmitForm() {
     }
   };
 
+    const posts = imageDataList.map((imageData, index) => (
+    <div key={index}>
+    <p>Name: {imageData.name}</p>
+      <p>Comment: {imageData.comment}</p>
+      <img src={imageData.file} alt="uploaded" />
+    </div>
+  ));
+
   return (
     <div>
       <h1>Image Upload Form</h1>
@@ -94,14 +102,7 @@ function SubmitForm() {
         <button type="submit">Submit</button>
       </form>
 
-      {imageDataList.map((imageData, index) => (
-        <div key={index}>
-          <h2>Uploaded Image {index + 1}</h2>
-          <p>Name: {imageData.name}</p>
-          <p>Comment: {imageData.comment}</p>
-          <img src={imageData.file} alt="uploaded" />
-        </div>
-      ))}
+
     </div>
   );
 }
