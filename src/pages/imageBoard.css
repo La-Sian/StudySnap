@@ -1,0 +1,12 @@
+.container {
+  background-image: url("./backgroundImg/backgroundImg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

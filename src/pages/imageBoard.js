@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ImagesList from '../components/ImageList/ImagesList';
 import ImageListItem from "../components/ImageListItem/ImageListItem";
-
+import "./imageBoard.css";
 
 const ImageBoard = () => {
   const [name, setName] = useState(""); // store the name of the user with handleNameChange function
@@ -90,7 +90,9 @@ const ImageBoard = () => {
 
 
   return (
-    <div>
+    <body>
+    <div className="container">
+
     <h1>Computational Thinking</h1>
     <h1>Image Upload Form</h1>
       <form onSubmit={handleSubmit}>
@@ -107,8 +109,9 @@ const ImageBoard = () => {
         <button type="submit">Submit</button>
         </form>
     <ImagesList post={posts}/>
-      
     </div>
+</body>
+
   );
 }
   
