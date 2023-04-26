@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Home from './pages';
 import ImageBoard from './pages/imageBoard';
-import Topic from './pages/topic';
+import Topic from './pages/topics';
+
   
 function App() {
 
@@ -12,7 +13,7 @@ return (
     <Router>
     <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route path='/topic' element={<Topic/>} />
+        <Route path='/topics' element={<Topic/>} />
         <Route path='/imageBoard' element={<ImageBoard/>} />
     </Routes>
     </Router>
