@@ -4,9 +4,9 @@ import './ImageListItem.css';
 function ImageListItem(props) {
     return (
         <div className="image-container" key={props.index}>
-        <p className='name-form'>Name: {props.name}</p>
+        <p className='name-form'>Posted by: {props.name}</p>
           <img className="image-form" src={props.file} alt="uploaded" />
-          <p className='comment-form'>Comment: {props.comment}</p>
+          <p className='comment-form'>{props.comment}</p>
         </div>
     );
 }
