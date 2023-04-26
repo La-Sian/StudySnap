@@ -17,7 +17,7 @@ But StudySnap is more than just a platform for sharing slides – it's a communi
 So why wait? Download StudySnap today and join the community of students who are revolutionizing the way we study and learn.</p>
 
       {/* Link tag is used to navigate to the page that is referenced in the to attribute. */}
-      <LinkButton path={'/topics'} innerText={'Week 1'}/>
+      <LinkButton path={'/topic'} innerText={'Week 1'}/>
       <LinkButton path={'/week2topics'} innerText={'Week 2'}/>
       <LinkButton path={'/week3topics'} innerText={'Week 3'}/>
       <LinkButton path={'/week3topics'} innerText={'Week 4'}/>
