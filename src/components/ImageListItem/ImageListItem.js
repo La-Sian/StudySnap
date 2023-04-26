@@ -1,12 +1,12 @@
 import React from 'react';
-
+import './ImageListItem.css';
 
 function ImageListItem(props) {
     return (
-        <div key={props.index}>
-        <p>Name: {props.name}</p>
-          <p>Comment: {props.comment}</p>
-          <img src={props.file} alt="uploaded" />
+        <div className="image-container" key={props.index}>
+        <p className='name-form'>Name: {props.name}</p>
+          <img className="image-form" src={props.file} alt="uploaded" />
+          <p className='comment-form'>Comment: {props.comment}</p>
         </div>
     );
 }

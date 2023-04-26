@@ -91,6 +91,7 @@ const ImageBoard = () => {
 
   return (
     <div>
+    <h1>Computational Thinking</h1>
     <h1>Image Upload Form</h1>
       <form onSubmit={handleSubmit}>
         <label>
