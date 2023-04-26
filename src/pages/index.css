@@ -1,0 +1,10 @@
+.page {
+
+    background-image:url('./backgroundImg/backgroundImg.png');
+    background-size: cover;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+  }
