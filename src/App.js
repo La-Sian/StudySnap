@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './pages';
 import ImageBoard from './pages/imageBoard';
 import Topic from './pages/topic';
+
   
 function App() {
 
