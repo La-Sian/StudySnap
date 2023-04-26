@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import ImageListItem from "../ImageListItem/ImageListItem";
+import ImagesList from "../ImageList/ImagesList";
 
 function SubmitForm() {
   const [name, setName] = useState(""); // store the name of the user with handleNameChange function
@@ -75,16 +77,16 @@ function SubmitForm() {
         setFile(null);
       };
     }
+   
+    
   };
 
-    const posts = imageDataList.map((imageData, index) => (
-    <div key={index}>
-    <p>Name: {imageData.name}</p>
-      <p>Comment: {imageData.comment}</p>
-      <img src={imageData.file} alt="uploaded" />
-    </div>
+  const posts = imageDataList.map((imageData, index) => (
+    <ImageListItem  name={imageData.name}
+   comment={imageData.comment}
+    file={imageData.file} />
   ));
-
+    
   return (
     <div>
       <h1>Image Upload Form</h1>
@@ -101,10 +103,13 @@ function SubmitForm() {
         </label>
         <button type="submit">Submit</button>
       </form>
-
+      
+      <ImagesList post={posts}/>
 
     </div>
   );
 }
 
+
 export default SubmitForm;
+

@@ -1,14 +1,16 @@
 import React from 'react';
-// import SubmitButton from '../components/SubmitButton/SubmitButton';
-// import LinkButton from '../components/LinkButton/LinkButton';
 import SubmitForm from '../components/SubmitForm/SubmitForm';
+import ImagesList from '../components/ImageList/ImagesList';
+
 
 const ImageBoard = () => {
+
 
 
   return (
     <div>
     <SubmitForm/>
+    <ImagesList post={posts}/>
       
     </div>
   );

@@ -12,7 +12,6 @@ const Topic = () => {
     <div>
       <h1>Our Lovely Topic</h1>
       <LinkButton path={'/imageBoard'} innerText={'Image Board'}/>
-      <SubmitForm />
     </div>
   );
 };
