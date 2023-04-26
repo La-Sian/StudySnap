@@ -94,8 +94,8 @@ const ImageBoard = () => {
     <div className="container">
 
     <h1>Computational Thinking</h1>
-    <h1>Image Upload Form</h1>
-      <form onSubmit={handleSubmit}>
+    
+      <form onSubmit={handleSubmit}>Upload your StudySnap here:
         <label>
           Name: <input type="text" value={name} onChange={handleNameChange} />
         </label>

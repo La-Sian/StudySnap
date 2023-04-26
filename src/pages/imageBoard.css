@@ -10,3 +10,22 @@
   margin: 0;
   padding: 0;
 }
+
+form {
+  background-color: rgba(122, 184, 209, 0.6);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.form-container {
+  background-color: #0077be;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
