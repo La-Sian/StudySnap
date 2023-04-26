@@ -1,14 +1,15 @@
 import React from 'react';
-import SubmitButton from '../components/SubmitButton/SubmitButton';
-import LinkButton from '../components/LinkButton/LinkButton';
-import SubmitForm from '../components/SubmitButton/SubmitButton';
+// import SubmitButton from '../components/SubmitButton/SubmitButton';
+// import LinkButton from '../components/LinkButton/LinkButton';
+import SubmitForm from '../components/SubmitForm/SubmitForm';
 
 const ImageBoard = () => {
 
 
   return (
     <div>
-      <h1>Sign Up Successful</h1>
+    <SubmitForm/>
+      
     </div>
   );
 };
