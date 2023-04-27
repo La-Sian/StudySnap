@@ -90,8 +90,15 @@ const ImageBoard = () => {
 
 
   return (
-    <body>
+   
     <div className="container">
+     <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+        </ul>
+        </nav> 
+    
+    <body>  
 
     <h1>Computational Thinking</h1>
     
@@ -109,8 +116,9 @@ const ImageBoard = () => {
         <button type="submit">Submit</button>
         </form>
     <ImagesList post={posts}/>
-    </div>
-</body>
+    
+     </body>
+</div>
 
   );
 }

@@ -4,6 +4,7 @@
   background-attachment: fixed;
   padding-bottom: 20px;
   padding-top: 30px;
+  height:100vh;
 }
 
 * {
@@ -28,4 +29,32 @@ form {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+}
+h1 {
+  text-align: center;
+  font: 
+}
+
+button[type="submit"] {
+  background-color: #e8880a;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 25px;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 1px 1px #000000;
+}
+
+/* 3D effect for the submit button */
+button[type="submit"]:hover {
+  background-color: #e8880a;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+label {
+  font-family: 'monospace';
+  font-size: 16px;
+  font-weight: bold;
 }
