@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import ImagesList from '../components/ImageList/ImagesList';
+// import ImagesList from '../components/ImageList/ImagesList';
 import ImageListItem from "../components/ImageListItem/ImageListItem";
 import "./imageBoard.css";
+import Ranking from "../components/Ranking/Ranking";
+
 
 const ImageBoard = () => {
   const [name, setName] = useState(""); // store the name of the user with handleNameChange function
@@ -54,6 +56,7 @@ const ImageBoard = () => {
           name: name,
           comment: comment,
           file: reader.result,
+          score: 0,
         };
         console.log("Image data:", imageData);
         console.log(imageDataList);
@@ -82,11 +85,20 @@ const ImageBoard = () => {
     
   };
 
-  const posts = imageDataList.map((imageData, index) => (
-    <ImageListItem  name={imageData.name}
-   comment={imageData.comment}
-    file={imageData.file} />
-  ));
+  // //sorts imageDataList by score
+  // function sortByScore(){
+  //   let newDataList = [...imageDataList]; 
+  //   newDataList.sort((a, b) => b.score - a.score);
+  //   setImageDataList(newDataList); 
+  // }
+
+
+
+  // const posts = imageDataList.map((imageData, index) => (
+  //   <ImageListItem  name={imageData.name}
+  //  comment={imageData.comment}
+  //   file={imageData.file} />
+  // ));
 
 
   return (
@@ -115,10 +127,15 @@ const ImageBoard = () => {
         </label>
         <button type="submit">Submit</button>
         </form>
-    <ImagesList post={posts}/>
-    
-     </body>
-</div>
+    {/* <ImagesList post={posts}/> */}
+    <Ranking
+      list = {imageDataList}
+      setList = {setImageDataList}
+      //sortRanking = {sortByScore}
+    /> 
+    </div>
+</body>
+
 
   );
 }
