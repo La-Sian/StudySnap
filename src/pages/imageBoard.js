@@ -65,7 +65,7 @@ const ImageBoard = () => {
 
         // The prevImageDataList parameter of the setImageDataList function refers to the previous value of the imageDataList state variable, which is passed as an argument to the function. This parameter is used to compute the new value of imageDataList, as explained above.
         setImageDataList((prevImageDataList) => {
-          const updatedImageDataList = [...prevImageDataList, imageData];
+          const updatedImageDataList = [imageData, ...prevImageDataList];
           localStorage.setItem(
             "imageDataList",
             JSON.stringify(updatedImageDataList)
