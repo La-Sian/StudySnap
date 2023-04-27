@@ -11,11 +11,7 @@ import { Link } from 'react-router-dom';
 function App() {
 
 return (
-    <div>
-    
-    {/* <nav className="navbar">
-        <Link to="/" className="nav-button">Home</Link>
-      </nav> */}
+
     <Router>
     <Routes>
         <Route exact path='/' element={<Home />} />
@@ -23,7 +19,7 @@ return (
         <Route path='/imageBoard' element={<ImageBoard/>} />
     </Routes>
     </Router>
-    </div>
+
 );
 }
   
