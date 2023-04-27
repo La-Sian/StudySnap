@@ -1,7 +1,7 @@
 
 import React from 'react';
 import LinkButton from '../components/LinkButton/LinkButton';
-import SubmitForm from '../components/SubmitForm/SubmitForm';
+// import SubmitForm from '../components/SubmitForm/SubmitForm';
 import './topic.css';
   
 const Topic = () => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ImageListItem from "../ImageListItem/ImageListItem";
-import ImagesList from "../ImageList/ImagesList";
+// import ImagesList from "../ImageList/ImagesList";
 import Ranking from "../Ranking/Ranking";
 
 function SubmitForm() {
@@ -105,11 +105,13 @@ function SubmitForm() {
     
   };
 
-  const posts = imageDataList.map((imageData, index) => (
-    <ImageListItem  name={imageData.name}
-   comment={imageData.comment}
-    file={imageData.file} />
-  ));
+  // const posts = imageDataList.map((imageData, index) => (
+  //   <ImageListItem  name={imageData.name}
+  //  comment={imageData.comment}
+  //   file={imageData.file} />
+  // ));
+
+  // const posts = Ranking(imageDataList);
     
   return (
     <div>
@@ -128,7 +130,7 @@ function SubmitForm() {
         <button type="submit">Submit</button>
       </form>
       
-      <ImagesList post={posts}/>
+      {/* <ImagesList post={posts}/> */}
 
     </div>
   );
