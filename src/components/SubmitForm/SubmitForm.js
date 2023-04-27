@@ -8,9 +8,18 @@ function SubmitForm() {
   const [file, setFile] = useState(null); // store the file of the user with handleFileChange function
   const [imageDataList, setImageDataList] = useState([]); // store the image data (including name and comment) of the user in an Array
 
-  // The code below is using the useEffect hook to run a function when the SubmitForm component mounts for the first time. The function retrieves the imageDataList data from the local storage using localStorage.getItem() method. If the imageDataList data is present in the local storage, it is parsed into a JavaScript object using JSON.parse() method and the resulting data is then set to the imageDataList state variable using setImageDataList() method.
-  // The useEffect hook has an empty dependency array [], which means that the function inside it will only be run once, during the initial mount of the component. This ensures that the data is only retrieved from local storage once when the component is first rendered, and not on every subsequent re-render.
-  //In summary this basically takes whatever is in localstorage and shoves it into the imageDataList state variable on each page refresh.
+  // The code below is using the useEffect hook to run a function when the SubmitForm component 
+  // mounts for the first time. The function retrieves the imageDataList data from the local storage 
+  // using localStorage.getItem() method. If the imageDataList data is present in the local storage, 
+  // it is parsed into a JavaScript object using JSON.parse() method and the resulting data is then 
+  // set to the imageDataList state variable using setImageDataList() method.
+  // The useEffect hook has an empty dependency array [], which means that the function inside it 
+  // will only be run once, during the initial mount of the component. This ensures that the data is
+  //  only retrieved from local storage once when the component is first rendered, and not on every 
+  //  subsequent re-render.
+  // In summary this basically takes whatever is in localstorage and shoves it into the imageDataList
+  //  state variable on each page refresh.
+  
   useEffect(() => {
     const savedImageDataList = localStorage.getItem("imageDataList");
     if (savedImageDataList) {
@@ -38,7 +47,8 @@ function SubmitForm() {
     }
   };
 
-  // the function below is to pass the data from the form into the imageDataList state variable and then store the resulting imageDataList state variable in the local storage
+  // the function below is to pass the data from the form into the imageDataList state variable 
+  // and then store the resulting imageDataList state variable in the local storage
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!name || !comment || !file) {
@@ -57,12 +67,24 @@ function SubmitForm() {
         console.log("Image data:", imageData);
         console.log(imageDataList);
 
-        //The code below is using the setImageDataList function to update the imageDataList state variable. The new value of imageDataList is computed based on the previous value of imageDataList (passed as prevImageDataList) and a new object imageData that was created earlier in the code.
-        // Specifically, the code creates a new array updatedImageDataList by spreading the previous value of imageDataList and appending the new object imageData. The localStorage.setItem method is used to store the updated updatedImageDataList in the browser's local storage as a JSON string, so that it can be accessed and used later.
+        // The code below is using the setImageDataList function to update the imageDataList 
+        // state variable. The new value of imageDataList is computed based on the previous 
+        // value of imageDataList (passed as prevImageDataList) and a new object imageData 
+        // that was created earlier in the code.
+        // Specifically, the code creates a new array updatedImageDataList by spreading the 
+        // previous value of imageDataList and appending the new object imageData. The 
+        // localStorage.setItem method is used to store the updated updatedImageDataList 
+        // in the browser's local storage as a JSON string, so that it can be accessed and 
+        // used later.
 
-        // Finally, the setImageDataList function is called with the updated updatedImageDataList as an argument and this new value is returned by the function, updating the imageDataList state variable with the new value.
+        // Finally, the setImageDataList function is called with the updated updatedImageDataList 
+        // as an argument and this new value is returned by the function, updating the imageDataList
+        //  state variable with the new value.
 
-        // The prevImageDataList parameter of the setImageDataList function refers to the previous value of the imageDataList state variable, which is passed as an argument to the function. This parameter is used to compute the new value of imageDataList, as explained above.
+        // The prevImageDataList parameter of the setImageDataList function refers to the previous
+        //  value of the imageDataList state variable, which is passed as an argument to the function.
+        //   This parameter is used to compute the new value of imageDataList, as explained above.
+        
         setImageDataList((prevImageDataList) => {
           const updatedImageDataList = [...prevImageDataList, imageData];
           localStorage.setItem(
