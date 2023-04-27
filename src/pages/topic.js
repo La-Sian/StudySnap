@@ -17,9 +17,11 @@ const Topic = () => {
         </ul>
         </nav> */}
       <h1>Week 1 Topic List</h1>
+      <div className='topic-container'>
       <LinkButton path={'/imageBoard'} innerText={'Computational Thinking'}/>
       <LinkButton path={'/imageBoard'} innerText={'Git Basics'}/>
       <LinkButton path={'/imageBoard'} innerText={'Javascript Basics'}/>
+    </div>
     </div>
   );
 };

@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
   } */
-
   .topic {
     display: flex;
     flex-direction: column;
@@ -19,6 +18,22 @@
     height: 100vh;
     background-image: url('./backgroundImg/backgroundImg.png');
     background-size: cover;
+    margin: 0 auto;
+  }
+
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(3, 11em);
+    grid-gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+  }
+
+  .topic-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
   }
   
   .topic h1 {
