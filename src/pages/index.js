@@ -13,14 +13,15 @@ const Home = () => {
         </ul>
         </nav> */}
       <h1><img className="logo" src={logo} alt="logo"/></h1>
-      <h4 className="subheading">Introducing StudySnap – the app that makes studying easier and more collaborative than ever before.</h4>
-      <p>  With StudySnap, students can post and upvote their favorite essential slides from lectures or presentations, allowing everyone to benefit from the best take-home slides.
-<br></br><br></br>
-Gone are the days of frantically taking notes during a lecture and struggling to keep up with the pace of the presentation. With StudySnap, you can focus on listening to the lecture and engaging with the content, knowing that the best slides will be available for review later.
-<br></br><br></br>
-But StudySnap is more than just a platform for sharing slides – it's a community of students who are passionate about learning and helping each other succeed. With the ability to upvote and comment on slides, you can collaborate with your peers and discover new insights and perspectives on the material.
-<br></br><br></br>
-So why wait? Get snapping StudySnap today and join the community of students who are revolutionizing the way we study and learn.</p>
+      <h4 className="subheading">Introducing StudySnap{"\u2014"}the app that makes studying easier and more collaborative than ever before.</h4>
+      <p> 
+      With StudySnap, you can focus on listening and engaging during lectures, knowing the best slides will be available for review later.
+      <br></br><br></br>
+      Simply choose your "essential screenshot"{"\u2014"}the one moment that best summarizes the entire lecture{"\u2014"}and upload it to the platform. Or, browse through and rate what others have chosen. Download your favorite as an easy-to-remember "take-home" lesson.
+      <br></br><br></br>
+      StudySnap is more than just a platform for sharing slides{"\u2014"}it's a community of students passionate about learning and helping each other succeed. Collaborate with your peers, discover new insights, and revolutionize the way you learn. Get snapping today!
+      <br></br><br></br>
+      </p>
 </div>
       {/* Link tag is used to navigate to the page that is referenced in the to attribute. */}
       <div className='grid-container'>
