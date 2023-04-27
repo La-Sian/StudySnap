@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageListItem from '../ImageListItem/ImageListItem';
+import './Ranking.css';
 //import ImagesList from '../components/ImageList/ImagesList';
 
 // buttons

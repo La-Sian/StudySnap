@@ -5,6 +5,7 @@
   padding-bottom: 20px;
   padding-top: 30px;
   height:100vh;
+  
 }
 
 * {
@@ -13,13 +14,14 @@
 }
 
 form {
-  background-color: rgba(122, 184, 209, 0.6);
+  background-color:rgb(230, 186, 140);
   padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-container {
@@ -30,21 +32,55 @@ form {
   align-items: center;
   padding: 10px 20px;
 }
-h1 {
+
+h2 {
   text-align: center;
-  font: 
+  background-color:rgb(230, 186, 140);
+   font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    background-color:rgb(230, 186, 140);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  
 }
 
-button[type="submit"] {
-  background-color: #e8880a;
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  background-color:rgb(230, 186, 140);
   border: none;
   border-radius: 20px;
-  color: #FFFFFF;
+  color: #000000;
   cursor: pointer;
   font-size: 20px;
+  font-style: arial;
   padding: 10px 25px;
   transition: all 0.3s ease-in-out;
-  text-shadow: 1px 1px #000000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.custom-file-upload:hover {
+  background-color: #e8880a;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+button[type="submit"] {
+  background-color:rgb(230, 186, 140);
+  border: none;
+  border-radius: 20px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: arial;
+  padding: 10px 25px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
 }
 
 /* 3D effect for the submit button */
@@ -54,7 +90,7 @@ button[type="submit"]:hover {
 }
 
 label {
-  font-family: 'monospace';
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
 }

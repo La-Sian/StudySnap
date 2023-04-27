@@ -8,6 +8,7 @@
     box-shadow: 5px 5px 10px #888888;
     font-family: Ariel, sans-serif;
     background-color: rgba(122, 184, 209, 0.6);
+  
   }
   .image-container:last-child {
     margin-bottom: 0; /* remove the bottom margin for the last child */
@@ -22,9 +23,13 @@
   }
   
   .comment-form {
-    font-size: 12px;
-    margin: 20px 0;
-    font-weight:normal;
+ font-size: 12px;
+  margin: 20px 0;
+  font-weight: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: pre-wrap;
   }
   
   .image-form {

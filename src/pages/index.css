@@ -17,16 +17,12 @@ body {
   
   .sidebar {
 font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(238, 150, 75, 0.65);
+    background-color:rgb(230, 186, 140);
     padding: 20px;
-    max-width: 50vh;
-    min-width: 50vh;
-    height: 100%;
+    max-width: 500px;
+    min-width: 500px;
+    height: 100vh;
   
-  }
-  
-  .sidebar h1 {
-    margin-top: 1.5em;
   }
   
   .sidebar p {
@@ -39,7 +35,7 @@ font-family: Arial, Helvetica, sans-serif;
   .button-grid {
     
     display: grid;
-    grid-template-columns: repeat(4, 10em);
+    grid-template-columns: repeat(4, 12em);
     grid-template-rows: repeat(4, 7em);
     grid-gap: 1em;
     padding-top: 10em;
@@ -57,7 +53,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
   
   .subheading {
-    margin-top: 2.5em;
+    
 font-weight: normal;
     font-size: 1.5em;
     margin-bottom: 0.5em;
@@ -72,6 +68,12 @@ font-weight: normal;
     height: 3em;
     width: 4em;
     border-radius: 20px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
- 
+ .logo {
+
+  max-width: 14em;
+ }

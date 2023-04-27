@@ -112,18 +112,18 @@ const ImageBoard = () => {
     
     
 
-    <h1>Computational Thinking</h1>
+    <h2>Computational Thinking</h2>
     
       <form onSubmit={handleSubmit}>Upload your StudySnap here:
-        <label>
+        <label >
           Name: <input type="text" value={name} onChange={handleNameChange} />
         </label>
         <label>
           Comment:
           <input type="text" value={comment} onChange={handleCommentChange} />
         </label>
-        <label>
-          Image: <input type="file" onChange={handleFileChange} />
+        <label class="custom-file-upload">
+          Select Image <input type="file" onChange={handleFileChange} />
         </label>
         <button type="submit">Submit</button>
         </form>
@@ -134,6 +134,7 @@ const ImageBoard = () => {
       setList = {setImageDataList}
       //sortRanking = {sortByScore}
     /> 
+    
   </div>
 
 

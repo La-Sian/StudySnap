@@ -9,18 +9,19 @@ const Topic = () => {
 
 
 
-  return (
-    <div className= 'topic'>
-      {/* <nav>
+  return (<div>
+    <nav className='home-button-topic'>
         <ul>
           <li><a href="/">Home</a></li>
         </ul>
-        </nav> */}
+        </nav> 
+    <div className= 'topic'>
       <h1>Week 1 Topic List</h1>
       <div className='topic-container'>
       <LinkButton path={'/imageBoard'} innerText={'Problem Solving'}/>
       <LinkButton path={'/imageBoard'} innerText={'Git Basics'}/>
       <LinkButton path={'/imageBoard'} innerText={'Javascript Basics'}/>
+    </div>
     </div>
     </div>
   );
