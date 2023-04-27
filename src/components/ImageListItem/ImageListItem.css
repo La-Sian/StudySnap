@@ -3,11 +3,14 @@
     flex-direction: column;
     margin: 20px auto;
     padding: 10px;
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 5%;
     box-shadow: 5px 5px 10px #888888;
     font-family: Ariel, sans-serif;
     background-color: rgba(122, 184, 209, 0.6);
+  }
+  .image-container:last-child {
+    margin-bottom: 0; /* remove the bottom margin for the last child */
   }
   
   .name-form {
@@ -32,3 +35,5 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
+
+  
