@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ImageListItem from "../ImageListItem/ImageListItem";
 import ImagesList from "../ImageList/ImagesList";
+import Ranking from "../Ranking/Ranking";
 
 function SubmitForm() {
   const [name, setName] = useState(""); // store the name of the user with handleNameChange function

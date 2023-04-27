@@ -2,14 +2,15 @@ import React from 'react';
 
 // buttons
  function Ranking(props) {
+    
  return (
   <ul>
    {props.todos.map((todo, index) => (
     <li key={index}>
-     <img src=props.file/>
+     <img alt={props.comment} src={props.file}/>
      <button className= 'rank'
       onClick={() => {
-       props.toadd1();
+       props.score +=1;
       }}>
       {'👍🏽'}
      </button>
