@@ -18,7 +18,7 @@ const Topic = () => {
         </nav> */}
       <h1>Week 1 Topic List</h1>
       <div className='topic-container'>
-      <LinkButton path={'/imageBoard'} innerText={'Computational Thinking'}/>
+      <LinkButton path={'/imageBoard'} innerText={'Problem Solving'}/>
       <LinkButton path={'/imageBoard'} innerText={'Git Basics'}/>
       <LinkButton path={'/imageBoard'} innerText={'Javascript Basics'}/>
     </div>
