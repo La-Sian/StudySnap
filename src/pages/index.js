@@ -6,6 +6,11 @@ import './index.css';
 const Home = () => {
   return (
     <div className='page'>
+      {/* <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+        </ul>
+        </nav> */}
       <h1>StudySnap</h1>
       <p> Introducing StudySnap – the app that makes studying easier and more collaborative than ever before. With StudySnap, students can post and upvote their favorite essential slides from lectures or presentations, allowing everyone to benefit from the best take-home slides.
 

@@ -10,6 +10,12 @@ import Topic from './pages/topic';
 function App() {
 
 return (
+    <div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+        </ul>
+        </nav>
     <Router>
     <Routes>
         <Route exact path='/' element={<Home />} />
@@ -17,6 +23,7 @@ return (
         <Route path='/imageBoard' element={<ImageBoard/>} />
     </Routes>
     </Router>
+    // </div>
 );
 }
   
