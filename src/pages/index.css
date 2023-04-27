@@ -1,10 +1,47 @@
 .page {
-
     background-image:url('./backgroundImg/backgroundImg.png');
     background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin:0;
+    height: 100vh;
 }
 
  *{
     margin: 0;
     padding: 0;
   }
+
+  .page {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: orange;
+    padding: 20px;
+  }
+  
+  .sidebar h1 {
+    margin-top: 0;
+  }
+  
+  .sidebar p {
+    margin-bottom: 0;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 10em);
+    grid-gap: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+  
+  .button-grid a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
