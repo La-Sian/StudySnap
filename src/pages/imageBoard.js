@@ -110,7 +110,7 @@ const ImageBoard = () => {
         </ul>
         </nav> 
     
-    <body>  
+    
 
     <h1>Computational Thinking</h1>
     
@@ -128,13 +128,13 @@ const ImageBoard = () => {
         <button type="submit">Submit</button>
         </form>
     {/* <ImagesList post={posts}/> */}
+    
     <Ranking
       list = {imageDataList}
       setList = {setImageDataList}
       //sortRanking = {sortByScore}
     /> 
-    </div>
-</body>
+  </div>
 
 
   );
