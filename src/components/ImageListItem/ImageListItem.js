@@ -7,7 +7,7 @@ function ImageListItem(props) {
           <p className='name-form'>Posted by: {props.name}</p>
           <img className="image-form" src={props.image} alt={props.comment} />
           <p className='comment-form'>{props.comment}</p>
-          <h4 className = 'score'>👍🏽 {props.score}</h4>
+          <h4 className = 'score'>👍 {props.score}</h4>
         </div>
     );
 }

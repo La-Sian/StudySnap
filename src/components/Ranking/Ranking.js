@@ -39,7 +39,7 @@ import ImageListItem from '../ImageListItem/ImageListItem';
         handleScoreUpdate(index)
         handleRankingArray()
       }}>
-      {'👍🏽'}
+      {'👍'}
      </button>
     </li>
    ))}
