@@ -63,6 +63,7 @@ function SubmitForm() {
           name: name,
           comment: comment,
           file: reader.result,
+          score: 0,
         };
         console.log("Image data:", imageData);
         console.log(imageDataList);
