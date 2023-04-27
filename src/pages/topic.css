@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
   } */
-
   .topic {
     display: flex;
     flex-direction: column;
@@ -19,12 +18,32 @@
     height: 100vh;
     background-image: url('./backgroundImg/backgroundImg.png');
     background-size: cover;
+    margin: 0 auto;
+  }
+
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(3, 11em);
+    grid-gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+  }
+
+  .topic-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
   }
   
   .topic h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     margin-bottom: 2rem;
+    background-color:rgb(238, 150, 75, 0.65);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
   }
   
   .topic .link-button {
