@@ -1,12 +1,19 @@
-<<<<<<< HEAD
-Set up mostly follows the set up at 
+**Brief:**
 
-https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
+Tasked to develop a custom frontend application using React, to solve a problem past and current Bootcampers experience on the Bootcamp.
 
-However, also requires the followng command be entered into the terminal: 
+**Approach:**
 
-npm i react-icons
-=======
-# Mid-Week-Project
-A revision solution app, that efficiently locates organised and reliable notes on specific topics from BC14 lectures.
->>>>>>> 27eda7d1647e565cdd1568e3797dfc0127a4cbe3
+Team manifesto:
+
+Ensure that all members learn and understand diverse aspects of the project, enabling collaborative contributions instead of isolated work based on individual strengths.
+
+Made it visual, committed and regularly revised.
+
+Problem / Ideation / Planning:
+
+Problem: Gaps in note taking watching live demos. Ideation: Disney Ideation to work through possible solutions. Planning: Developed a work backlog using Trello.
+
+**Result:**
+
+StudySnap, a revision app that efficiently locates organised and reliable notes on specific topics from live BC14 lectures.
