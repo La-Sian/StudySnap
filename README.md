@@ -63,7 +63,7 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://github.com/La-Sian/StudySnap/assets/122037588/857753ba-939e-4664-a9dc-ed4321ce8cd0" />
 </div>
 
 
