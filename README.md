@@ -38,7 +38,6 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 - [About the Project](#star2-about-the-project)
   * [Screenshots](#camera-screenshots)
   * [Tech Stack](#space_invader-tech-stack)
-  * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
 <!--   * [Environment Variables](#key-environment-variables) -->
 - [Getting Started](#toolbox-getting-started)
