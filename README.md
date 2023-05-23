@@ -66,34 +66,8 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
   <img src="https://github.com/La-Sian/StudySnap/assets/122037588/857753ba-939e-4664-a9dc-ed4321ce8cd0" />
 </div>
 
-
 <!-- TechStack -->
 ### :space_invader: Tech Stack
-
-<details>
- - HTML5
-- CSS
-- JavaScript
-- React.js
-- React Router
-- Figma
-- Trello
-- Miro
-  <summary>Frontend</summary>
-  <ul>
-    <li>HTML5</li>
-    <li>CSS</li>
-   <li><a href="https://nextjs.org/">Javascript</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">React Router</a></li>
-   <li><a href="https://nextjs.org/">Figma</a></li>
-   <li><a href="https://nextjs.org/">Trello</a></li>
-   <li><a href="https://nextjs.org/">Miro</a></li>
-   
-  </ul>
-</details>
-
-<!-- ## Tech Stack
 
 - HTML5
 - CSS
@@ -102,7 +76,8 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 - React Router
 - Figma
 - Trello
-- Miro -->
+- Miro
+
 
 
 <!-- Features -->
