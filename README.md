@@ -59,7 +59,12 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 <!-- About the Project -->
 ## :star2: About the Project
 
-!-- Screenshots -->
+Key Features:
+- view library of uploaded images
+- upload images
+- like image and will display order by most liked
+
+<!-- Screenshots -->
 ### :camera: Screenshots
 
 <div align="center"> 
@@ -78,14 +83,6 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 - Trello
 - Miro
 
-
-
-<!-- Features -->
-### :dart: Features
-
-- Feature 1
-- Feature 2
-- Feature 3
 
 <!-- Color Reference -->
 ### :art: Color Reference
