@@ -71,14 +71,39 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 ### :space_invader: Tech Stack
 
 <details>
-  <summary>Client</summary>
+ - HTML5
+- CSS
+- JavaScript
+- React.js
+- React Router
+- Figma
+- Trello
+- Miro
+  <summary>Frontend</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li>HTML5</li>
+    <li>CSS</li>
+   <li><a href="https://nextjs.org/">Javascript</a></li>
     <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://tailwindcss.com/">React Router</a></li>
+   <li><a href="https://nextjs.org/">Figma</a></li>
+   <li><a href="https://nextjs.org/">Trello</a></li>
+   <li><a href="https://nextjs.org/">Miro</a></li>
+   
   </ul>
 </details>
+
+<!-- ## Tech Stack
+
+- HTML5
+- CSS
+- JavaScript
+- React.js
+- React Router
+- Figma
+- Trello
+- Miro -->
+
 
 <!-- Features -->
 ### :dart: Features
