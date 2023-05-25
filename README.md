@@ -40,14 +40,15 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
   * [Tech Stack](#space_invader-tech-stack)
   * [Color Reference](#art-color-reference)
 <!--   * [Environment Variables](#key-environment-variables) -->
-- [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-<!--   * [Running Tests](#test_tube-running-tests) -->
+<!-- - [Getting Started](#toolbox-getting-started) -->
+<!--   * [Prerequisites](#bangbang-prerequisites) -->
+- [Installation](#gear-installation)
   * [Run Locally](#running-run-locally)
+<!--   * [Running Tests](#test_tube-running-tests) -->
+<!--   * [Run Locally](#running-run-locally) -->
   * [Deployment](#triangular_flag_on_post-deployment)
 - [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
+<!-- - [Roadmap](#compass-roadmap) -->
 - [Contributing](#wave-contributing)
 <!--   * [Code of Conduct](#scroll-code-of-conduct)
 - [FAQ](#grey_question-faq) -->
@@ -57,6 +58,10 @@ StudySnap, a revision app that efficiently locates organised and reliable notes 
 
 <!-- About the Project -->
 ## :star2: About the Project
+Welcome to StudySnap!
+StudySnap is the ultimate companion for bootcampers, offering an immersive and collaborative learning experience. Delve into live lecture topics through a curated collection of screenshots, summarizing key concepts and highlights all at your fingertips.
+
+Contribute your own screenshots and become part of the collective knowledge pool, while also liking and rating images to influence the display order. Discover the most popular content quickly and save time. Whether you're a visual learner, seeking to reinforce   understanding, or looking to connect with fellow bootcampers, StudySnap is your go-to app!
 
 Key Features:
 - view library of uploaded images
@@ -92,4 +97,36 @@ Key Features:
 | Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
 | Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
 | Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
+
+<!-- Installation -->
+### :gear: Installation     
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your_username/react-travel-journal.git
+```
+
+
+2. Navigate to the project directory:
+
+  `For this project, the directory is 'travel'.`
+
+
+3. Install the necessary dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm start
+```
+
+5. Open your browser and go to http://localhost:3000 to see the application in action.
 
