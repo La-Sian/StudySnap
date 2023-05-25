@@ -98,9 +98,10 @@ Key Features:
 | Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
 | Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
+ <!-- Badges -->
 
 <!-- Installation -->
-### :gear: Installation     
+## :gear: Installation     
 
 To set up the project locally, follow these steps:
 
