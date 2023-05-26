@@ -108,13 +108,13 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your_username/react-travel-journal.git
+https://github.com/La-Sian/StudySnap.git
 ```
 
 
 2. Navigate to the project directory:
 
-  `For this project, the directory is 'travel'.`
+  `For this project, the directory is 'xxx'.`
 
 
 3. Install the necessary dependencies:
