@@ -108,13 +108,13 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
 ```
-https://github.com/La-Sian/StudySnap.git
+git clone https://github.com/La-Sian/StudySnap.git
 ```
 
 
 2. Navigate to the project directory:
 
-  `For this project, the directory is 'xxx'.`
+  `For this project, the directory is 'StudySnap'.`
 
 
 3. Install the necessary dependencies:
